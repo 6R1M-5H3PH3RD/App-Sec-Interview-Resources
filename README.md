@@ -1,151 +1,97 @@
 # AppSecInterviewResources
-AppSecInterviewResources
 
-- Threat Modelling / Code Review —
-
-Resources-for-Application-Security
-
-How to prepare for a security engineer interview by Eray Mitrani
-
-Security_Engineer_Interview_Questions by Tad Whitaker
-
-Security Engineer - Interview Questions by Namish
-
-60 Cybersecurity Interview Questions 2019 Update by Daniel Miessler
-
-https://www.youtube.com/watch?v=DJ41leCuUm0 
-https://www.youtube.com/watch?v=-LL4IE663ng 
-https://www.youtube.com/watch?v=Kepd1HsoE8o
-https://www.youtube.com/c/CyberSecurityTV/videos 
-https://www.youtube.com/watch?v=eQ1I0wzS8p0&t=3607s 
-https://www.owasp.trendmicro.com 
-https://www.rules.sonarsource.com    
-
-Security Concepts:
-
-Cert Auth / Chain Of Trust
-https://www.youtube.com/watch?v=heacxYUnFHA&t=663s
-
-Digital Certs
-https://www.youtube.com/watch?v=qXLD2UHq2vk
-
-SQL Injection
-https://cwe.mitre.org/data/definitions/89.html
-
-SSRF
-https://www.youtube.com/watch?v=nTCDQ0UmFgE&t=844s
-
-XSS
-https://www.youtube.com/watch?v=2YD4vygeghM&t=278s
-
-API Security
-https://www.youtube.com/watch?v=ijalD2NkRFg
-https://www.youtube.com/watch?v=zTkv_9ChVPY 
-https://www.youtube.com/watch?v=aQGbYfalRTA&t=1179s
-https://www.youtube.com/watch?v=5UTHUZ3NGfw&t=3234s
-https://www.youtube.com/watch?v=qqmyAxfGV9c
-
-Threat Modelling
-https://www.youtube.com/watch?v=KGy_KCRUGd4&t=2565s
-https://www.youtube.com/watch?v=-LL4IE663ng
-https://www.youtube.com/watch?v=ClWw1znEUqI 
-https://www.youtube.com/watch?v=We2cy8JwVqc&t=885s
-https://www.youtube.com/watch?v=l4GtDZZFcA8
-
-Oath
-https://www.youtube.com/watch?v=lLeKTVobxDM&t=1763s  
-https://www.youtube.com/watch?v=0VWkQMr7r_c&t=3624s
-
-HTTP Cookies 
-https://www.youtube.com/watch?v=sovAIX4doOE&t=2s
-
-SAML
-https://www.youtube.com/watch?v=SvppXbpv-5k&t=4s
-
-OpenID
-https://www.youtube.com/watch?v=rTzlF-U9Y6Y 
-
-ID Management
-https://www.youtube.com/watch?v=Tcvsefz5DmA
-
-OWASP Attacks
-https://www.youtube.com/watch?v=pdC3H8SX-F4
+## Basic concepts 
+  - Client-Server Architecture||1-Tier, 2-Tier ,3-Tier architecture - https://www.youtube.com/watch?v=ve82kSSj_Hs&ab_channel=BotEngineer
+  - What Are Microservices Really All About? (And When Not To Use It) - https://www.youtube.com/watch?v=lTAcCNbJ7KE&ab_channel=ByteByteGo
+  - What are microservices really all about? - Microservices Basics Tutorial - https://www.youtube.com/watch?v=j1gU2oGFayY&ab_channel=JavaBrains
+  - SSL Handshake - https://www.youtube.com/watch?v=tKqSSOEjbgs&ab_channel=Simplilearn
+  - Breaking down TLS handshake - https://www.youtube.com/watch?v=tKqSSOEjbgs&ab_channel=Simplilearn
+  - How does SSL work? | SSL certificates and TLS - https://www.cloudflare.com/learning/ssl/how-does-ssl-work/
+  - What happens in a TLS handshake? | SSL handshake - https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/
+  - What happens when you type google.com into your browser's address box and press enter? - https://github.com/alex/what-happens-when
+  - How the web works - https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+  - SOP, CORS & CSP
+      - Demystifying SOP and CSP, featuring CORS - https://dev.to/artis3n/demystifying-sop-and-csp-featuring-cors-16o3
+      - Demystifying SOP and CSP, featuring CORS - https://blog.artis3nal.com/blog/demystifying-sop-and-csp/
+  - What Is a Web Browser? - https://www.avast.com/c-what-is-a-web-browser
+  - Populating the page: how browsers work - https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work
+      - https://www.freecodecamp.org/news/web-application-security-understanding-the-browser-5305ed2f1dac/ 
+  - HTML multipage parsing - https://html.spec.whatwg.org/multipage/parsing.html
 
 
+## Security Concepts:
+  - digital Cert: Chain of Trust - https://www.youtube.com/watch?v=heacxYUnFHA&ab_channel=DaveCrabbe
+  - Intro to Digital Certificates - https://www.youtube.com/watch?v=qXLD2UHq2vk
+  - Server-side request forgery (SSRF) - https://portswigger.net/web-security/ssrf
+  - hOW TO SSRF - https://www.hackerone.com/application-security/how-server-side-request-forgery-ssrf
+  - Every Type of XSS Attack, Explained - https://www.youtube.com/watch?v=nTCDQ0UmFgE&t
+  - SQl Injection with sqlmap - https://www.youtube.com/watch?v=2YD4vygeghM&t
+  - 1 Hour of Popular Web Attacks (XSS, CSRF, SSRF, SQL Injection, MIME Sniffing, Smuggling and more!) - https://www.youtube.com/watch?v=pdC3H8SX-F4
+  - What is XXE - https://portswigger.net/web-security/xxe
+    - Recommend XXE mitigation for application which requires external entities to be called because of business requirement
+    - https://resources.infosecinstitute.com/topic/identify-mitigate-xxe-vulnerabilities/
+    - https://find-sec-bugs.github.io/bugs.htm#XXE_SAXPARSER
+  - HSTS - Strict-Transport-Security - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
 
-Which architecture is more secure? 2 tier or 3 tier?
+    
+## Threat Modelling / Code Review 
+  - Security_Engineer_Interview_Questions by Tad Whitaker
+  - Security Engineer - Interview Questions by Namish
+  - 60 Cybersecurity Interview Questions 2019 Update by Daniel Miessler
+  - Threat Modeling Python Web Apps written with Flask and Django - https://www.youtube.com/watch?v=DJ41leCuUm0 
+  - Stephen De Vries - Threat Modeling With Architectural Risk Patterns - AppSecUSA 2016 - https://www.youtube.com/watch?v=-LL4IE663ng 
+  - [2019] The Absolute AppSec Secure Code Review Framework by Seth Law - https://www.youtube.com/watch?v=Kepd1HsoE8o
+  - CyberSecurityTV- https://www.youtube.com/c/CyberSecurityTV/videos 
+  - How to find vulnerabilities by source code review and how to write scripts to exfiltrate data - https://www.youtube.com/watch?v=eQ1I0wzS8p0&t=3607s 
+  - OWASP Secure Coding Dojo - https://owasp.org/www-project-secure-coding-dojo/
+    - https://securecodingdojo.owasp.org/public/index.html
+  - SonarSource static code analysis - https://rules.sonarsource.com/
 
-Explain SSL Handshake?
 
-https://www.youtube.com/watch?v=ubHZQrECeew
+## API Security
+ - API Security 101 by Sadako - https://www.youtube.com/watch?v=ijalD2NkRFg
+ - OWASP API Security Top 10 Webinar - https://www.youtube.com/watch?v=zTkv_9ChVPY 
+ - Top 10 API Bugs (and Where to Find Them)- https://www.youtube.com/watch?v=aQGbYfalRTA&t=1179s
+ - Analyzing The OWASP API Security Top 10 For Pen Testers- https://www.youtube.com/watch?v=5UTHUZ3NGfw&t=3234s
+ - API hacking for the Actually Pretty Inexperienced hacker with Katie Paxton-Fear - OWASP DevSlop - https://www.youtube.com/watch?v=qqmyAxfGV9c
 
-https://www.cloudflare.com/learning/ssl/how-does-ssl-work/
+## Threat Modelling
+ - APPSEC Cali 2018 - Threat Modeling Toolkit - https://www.youtube.com/watch?v=KGy_KCRUGd4
+ - Stephen De Vries - Threat Modeling With Architectural Risk Patterns - AppSecUSA 2016 -  https://www.youtube.com/watch?v=-LL4IE663ng
+ - Threat Modeling - Jim DelGrosso - https://www.youtube.com/watch?v=We2cy8JwVqc
+ - Instant Threat Modeling - #15 Mobile Apps - https://www.youtube.com/watch?v=l4GtDZZFcA8
 
-https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/
+## OAuth/SAML/OpenID
+  - 217 - OAuth vs. SAML vs. OpenID Connect - Michael Schwartz - https://www.youtube.com/watch?v=lLeKTVobxDM&ab_channel=LASCON
+  - HTTP Cookies Crash Course - https://www.youtube.com/watch?v=sovAIX4doOE&t
+  - SAML 2.0: Technical Overview - https://www.youtube.com/watch?v=SvppXbpv-5k&t
+  - OAuth 2.0 & OpenID Connect (OIDC): Technical Overview - https://www.youtube.com/watch?v=rTzlF-U9Y6Y 
+  - Identity and Access Management: Technical Overview - https://www.youtube.com/watch?v=Tcvsefz5DmA
 
-Recommend XXE mitigation for application which requires external entities to be called because of business requirement?
 
-Explain CORS and SOP?
+## Some of the Attacks
+  - Understanding Our Cache and the Web Cache Deception Attack - https://blog.cloudflare.com/understanding-our-cache-and-the-web-cache-deception-attack/
+  - Web Cache Deception attack - https://omergil.blogspot.com/2017/02/web-cache-deception-attack.html
+  - Practical Web Cache Poisoning - https://portswigger.net/research/practical-web-cache-poisoning
+  - HTTP request smuggling - https://portswigger.net/web-security/request-smuggling
+  - DOM-based vulnerabilities - https://portswigger.net/web-security/dom-based
+  - DOM based XSS - https://portswigger.net/web-security/cross-site-scripting/dom-based
+  
+  
+  
+  
+  
+- Explain DOM XSS. Can DOM XSS be stored? Can CSP header mitigate dom based XSS
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+- What will be your testcase for a file upload functionality?
+    - The Art of Unrestricted File Upload Exploitation - https://bugdisclose.medium.com/art-of-unrestricted-file-upload-exploitation-92ed28796d0
+    - Complete file upload vulnerabilities - https://resources.infosecinstitute.com/topic/file-upload-vulnerabilities/#gref
+    - Unrestricted File upload - https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload
 
-https://portswigger.net/web-security/cors
 
-https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy
 
-https://www.bedefended.com/papers/cors-security-guide
 
-Does SOP mitigate CSRF attacks?
-
-https://security.stackexchange.com/questions/157061/how-does-csrf-correlate-with-same-origin-policy
-
-Exploiting SSRF attacks
-
-https://portswigger.net/web-security/ssrf
-
-https://www.hackerone.com/blog-How-To-Server-Side-Request-Forgery-SSRF
-
-https://blog.appsecco.com/an-ssrf-privileged-aws-keys-and-the-capital-one-breach-4c3c2cded3af
-
-What is web cache deception?
-
-https://blog.cloudflare.com/understanding-our-cache-and-the-web-cache-deception-attack/
-
-http://omergil.blogspot.com/2017/02/web-cache-deception-attack.html
-
-https://portswigger.net/research/practical-web-cache-poisoning
-
-What is HTTP request smuggling?
-
-http://projects.webappsec.org/w/page/13246928/HTTP%20Request%20Smuggling
-
-https://portswigger.net/web-security/request-smuggling
-
-Explain DOM XSS. Can DOM XSS be stored? Can CSP header mitigate dom based XSS
-
-https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
-
-https://html.spec.whatwg.org/multipage/parsing.html
-
-https://portswigger.net/web-security/cross-site-scripting/dom-based
-
-https://brutelogic.com.br/blog/dom-based-xss-the-3-sinks/
-
-https://www.scip.ch/en/?labs.20171214
-
-What will be your testcase for a file upload functionality?
-
-https://medium.com/@satboy.fb/art-of-unrestricted-file-upload-exploitation-92ed28796d0
-
-https://resources.infosecinstitute.com/file-upload-vulnerabilities/#gref
-
-https://pentestlab.blog/2012/11/19/abusing-file-upload/
-
-https://pentestlab.blog/2012/11/29/bypassing-file-upload-restrictions/
-
-What is HSTS?
-
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
+------ Needs to be worked on ------ 
 
 Explain SSL Stripping
 
