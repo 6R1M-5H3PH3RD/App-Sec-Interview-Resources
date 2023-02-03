@@ -23,9 +23,9 @@
   - [digital Cert: Chain of Trust](https://www.youtube.com/watch?v=heacxYUnFHA&ab_channel=DaveCrabbe)
   - [Intro to Digital Certificates](https://www.youtube.com/watch?v=qXLD2UHq2vk)
   - [Server-side request forgery (SSRF)](https://portswigger.net/web-security/ssrf)
-  - [hOW TO SSRF](https://www.hackerone.com/application-security/how-server-side-request-forgery-ssrf)
+  - [HOW TO SSRF](https://www.hackerone.com/application-security/how-server-side-request-forgery-ssrf)
   - [Every Type of XSS Attack, Explained](https://www.youtube.com/watch?v=nTCDQ0UmFgE&t)
-  - [SQl Injection with sqlmap](https://www.youtube.com/watch?v=2YD4vygeghM&t)
+  - [SQL Injection with sqlmap](https://www.youtube.com/watch?v=2YD4vygeghM&t)
   - [1 Hour of Popular Web Attacks (XSS, CSRF, SSRF, SQL Injection, MIME Sniffing, Smuggling and more!](https://www.youtube.com/watch?v=pdC3H8SX-F4)
   - [What is XXE] - https://portswigger.net/web-security/xxe
     - [Recommend XXE mitigation for application which requires external entities to be called because of business requirement](https://resources.infosecinstitute.com/topic/identify-mitigate-xxe-vulnerabilities/)
