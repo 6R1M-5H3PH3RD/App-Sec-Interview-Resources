@@ -61,7 +61,7 @@
 ## OAuth/SAML/OpenID
   - [217 - OAuth vs. SAML vs. OpenID Connect - Michael Schwartz](https://www.youtube.com/watch?v=lLeKTVobxDM&ab_channel=LASCON)
   - [HTTP Cookies Crash Course](https://www.youtube.com/watch?v=sovAIX4doOE&t)
-  - [SAML 2.0: Technical Overview] - https://www.youtube.com/watch?v=SvppXbpv-5k&t
+  - [SAML 2.0: Technical Overview](https://www.youtube.com/watch?v=SvppXbpv-5k&t)
   - [OAuth 2.0 & OpenID Connect (OIDC): Technical Overview](https://www.youtube.com/watch?v=rTzlF-U9Y6Y)
   - [Identity and Access Management: Technical Overview](https://www.youtube.com/watch?v=Tcvsefz5DmA)
 
