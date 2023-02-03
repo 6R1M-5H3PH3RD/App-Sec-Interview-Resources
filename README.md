@@ -27,7 +27,7 @@
   - [Every Type of XSS Attack, Explained](https://www.youtube.com/watch?v=nTCDQ0UmFgE&t)
   - [SQL Injection with sqlmap](https://www.youtube.com/watch?v=2YD4vygeghM&t)
   - [1 Hour of Popular Web Attacks (XSS, CSRF, SSRF, SQL Injection, MIME Sniffing, Smuggling and more!](https://www.youtube.com/watch?v=pdC3H8SX-F4)
-  - [What is XXE] - https://portswigger.net/web-security/xxe
+  - [What is XXE](https://portswigger.net/web-security/xxe)
     - [Recommend XXE mitigation for application which requires external entities to be called because of business requirement](https://resources.infosecinstitute.com/topic/identify-mitigate-xxe-vulnerabilities/)
     - https://find-sec-bugs.github.io/bugs.htm#XXE_SAXPARSER
   - [HSTS - Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
