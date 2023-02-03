@@ -38,7 +38,7 @@
   - Security Engineer - Interview Questions by Namish
   - 60 Cybersecurity Interview Questions 2019 Update by Daniel Miessler
   - [Threat Modeling Python Web Apps written with Flask and Django](https://www.youtube.com/watch?v=DJ41leCuUm0 )
-  - [Stephen De Vries - Threat Modeling With Architectural Risk Patterns](AppSecUSA 2016 - https://www.youtube.com/watch?v=-LL4IE663ng)
+  - [Stephen De Vries - Threat Modeling With Architectural Risk Patterns AppSecUSA 2016 ](https://www.youtube.com/watch?v=-LL4IE663ng)
   - [[2019] The Absolute AppSec Secure Code Review Framework by Seth Law](https://www.youtube.com/watch?v=Kepd1HsoE8o)
   - [CyberSecurityTV](https://www.youtube.com/c/CyberSecurityTV/videos)
   - [How to find vulnerabilities by source code review and how to write scripts to exfiltrate data](https://www.youtube.com/watch?v=eQ1I0wzS8p0&t)
