@@ -1,4 +1,4 @@
-# AppSecInterviewResources
+# Application Security Interview Resources
 
 ## Basic concepts 
   - [Client-Server Architecture||1-Tier, 2-Tier ,3-Tier architecture](https://www.youtube.com/watch?v=ve82kSSj_Hs&ab_channel=BotEngineer)
@@ -81,39 +81,39 @@
     - [The Art of Unrestricted File Upload Exploitation](https://bugdisclose.medium.com/art-of-unrestricted-file-upload-exploitation-92ed28796d0)
     - [Complete file upload vulnerabilities](https://resources.infosecinstitute.com/topic/file-upload-vulnerabilities/#gref)
     - [Unrestricted File upload](https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload)
-    - [Explain SSL Stripping](https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/)
-    - [If you have API calls which need to fetch credentials, what will be the secure way to store secrets and making them available for API calls?](https://medium.com/hackernoon/where-do-you-keep-credentials-for-your-lambda-functions-cac746048480)
-    - How does file compression work?
-    - Which method is secure? Compress First and then Encrypt the data or Encrypt First then Compress?
-    - You have found a vulnerability a product/infrastructure, how will you investigate if this was not exploited already by an attacker
-    - [What is SPF, DKIM and DMARC?](https://www.smartertools.com/blog/2019/04/09-understanding-spf-dkim-dmarc)
-        - https://www.endpoint.com/blog/2014/04/15/spf-dkim-and-dmarc-brief-explanation
-    - Explain DNS Exfiltration
-    - [Explain Log Poisoning using LFI/RFI](https://www.hackingarticles.in/apache-log-poisoning-through-lfi/)
-        - https://www.hackingarticles.in/rce-with-lfi-and-ssh-log-poisoning/
-        - https://highon.coffee/blog/lfi-cheat-sheet/
-    - Do the HttpOnly cookie and X-XSS-Protection header mitigate cross-site scripting attacks?
-    - [How do you exploit XSS in a post request?](https://portswigger.net/blog/exploiting-xss-in-post-requests)
-    - Difference: IDOR, Missing function level access control and privilege escalation
-    - How does burp suite work with HTTPs requests?
-    - Is the DNS service's communication encrypted?
-    - Security implications in DNS
-    - [DNS over HTTPs](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/)
-        - https://www.chromium.org/developers/dns-over-https
-    - [How does ssh authentication work?](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process)
-        - https://gravitational.com/blog/ssh-handshake-explained/
-    - How to create and implement an SSL certificate?
-    - How to verify if a database is encrypted?
-    - If you want a script to use credentials from the system, where will you store the credentials?
-    - Explain SDLC
-    - In which phase of SDLC should security be integrated?
-    - [What are stateless and stateful requests?](https://www.geeksforgeeks.org/difference-between-stateless-and-stateful-protocol/)
-    - How is the state of a request saved in HTTP?
-    - [What data does the shadow file contains?](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)
-    - What is salt in cryptography?
-    - What is Double-Submit Cookie?
-    - [What is Preflight request?](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
-    - What are Certificate Transparency Logs?
-    - What is your favourite vulnerability and why?
-    - Talk about any latest/interesting vulnerability or breach you learnt about.
+- [Explain SSL Stripping](https://blog.cloudflare.com/performing-preventing-ssl-stripping-a-plain-english-primer/)
+- [If you have API calls which need to fetch credentials, what will be the secure way to store secrets and making them available for API calls?](https://medium.com/hackernoon/where-do-you-keep-credentials-for-your-lambda-functions-cac746048480)
+- How does file compression work?
+- Which method is secure? Compress First and then Encrypt the data or Encrypt First then Compress?
+- You have found a vulnerability a product/infrastructure, how will you investigate if this was not exploited already by an attacker
+- [What is SPF, DKIM and DMARC?](https://www.smartertools.com/blog/2019/04/09-understanding-spf-dkim-dmarc)
+    - https://www.endpoint.com/blog/2014/04/15/spf-dkim-and-dmarc-brief-explanation
+- Explain DNS Exfiltration
+- [Explain Log Poisoning using LFI/RFI](https://www.hackingarticles.in/apache-log-poisoning-through-lfi/)
+    - https://www.hackingarticles.in/rce-with-lfi-and-ssh-log-poisoning/
+    - https://highon.coffee/blog/lfi-cheat-sheet/
+- Do the HttpOnly cookie and X-XSS-Protection header mitigate cross-site scripting attacks?
+- [How do you exploit XSS in a post request?](https://portswigger.net/blog/exploiting-xss-in-post-requests)
+- Difference: IDOR, Missing function level access control and privilege escalation
+- How does burp suite work with HTTPs requests?
+- Is the DNS service's communication encrypted?
+- Security implications in DNS
+- [DNS over HTTPs](https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/)
+    - https://www.chromium.org/developers/dns-over-https
+- [How does ssh authentication work?](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process)
+    - https://gravitational.com/blog/ssh-handshake-explained/
+- How to create and implement an SSL certificate?
+- How to verify if a database is encrypted?
+- If you want a script to use credentials from the system, where will you store the credentials?
+- Explain SDLC
+- In which phase of SDLC should security be integrated?
+- [What are stateless and stateful requests?](https://www.geeksforgeeks.org/difference-between-stateless-and-stateful-protocol/)
+- How is the state of a request saved in HTTP?
+- [What data does the shadow file contains?](https://www.cyberciti.biz/faq/understanding-etcshadow-file/)
+- What is salt in cryptography?
+- What is Double-Submit Cookie?
+- [What is Preflight request?](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
+- What are Certificate Transparency Logs?
+- What is your favourite vulnerability and why?
+- Talk about any latest/interesting vulnerability or breach you learnt about.
 
