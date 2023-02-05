@@ -32,7 +32,7 @@
     - https://find-sec-bugs.github.io/bugs.htm#XXE_SAXPARSER
   - [HSTS - Strict-Transport-Security](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security)
   - [HTTP request smuggling](https://portswigger.net/web-security/request-smuggling)
-
+  - [Java Deserialization](https://waratek.com/blog/java-deserialization-vulnerability/)
     
 ## Threat Modelling / Code Review 
   - Security_Engineer_Interview_Questions by Tad Whitaker
